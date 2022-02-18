@@ -21,8 +21,7 @@ const config = {
 				alias: {
 					$components: resolve('src/_components'),
 					$elements: resolve('src/_elements'),
-					$utils: resolve('src/_utils'),
-					$dataSources: resolve('src/_dataSources'),
+					$utils: resolve('src/_utils')
 				}
 			}
 		},
