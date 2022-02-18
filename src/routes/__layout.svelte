@@ -9,18 +9,18 @@
 	import lodash from 'lodash';
 	import config from '$utils/config';
 
-	Sentry.init({
-		dsn: logging.dsn,
-		release: config.version,
-		environment: logging.environment,
-		debug: false,
-		attachStacktrace: true,
-		integrations: [new Integrations.BrowserTracing()]
-	});
+	// Sentry.init({
+	// 	dsn: logging.dsn,
+	// 	release: config.version,
+	// 	environment: logging.environment,
+	// 	debug: false,
+	// 	attachStacktrace: true,
+	// 	integrations: [new Integrations.BrowserTracing()]
+	// });
 	
-	Sentry.configureScope((scope) => {
-		scope.setTag('correlationId', correlationId);
-	});
+	// Sentry.configureScope((scope) => {
+	// 	scope.setTag('correlationId', correlationId);
+	// });
 	
 </script>
 

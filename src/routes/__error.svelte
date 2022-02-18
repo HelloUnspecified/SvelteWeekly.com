@@ -87,7 +87,7 @@
 					</div>
 				</div>
 				<div class="mt-10 flex sm:border-l sm:border-transparent sm:pl-6">
-					<StandardLink rel="external" class="h-3/4" href="/">go home</StandardLink>
+					<a rel="external" class="h-3/4" href="/">go home</a>
 				</div>
 			</div>
 		</main>
