@@ -1,5 +1,8 @@
 
 <script>
+	import Seo from '$components/Seo.svelte';
+	import seoMetaTags from '$utils/seo/metaTags';	
+
 	const metaTags = ((
 		title = 'TEMPLATE'
 	) => ({
