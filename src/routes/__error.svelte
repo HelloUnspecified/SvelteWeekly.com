@@ -12,7 +12,6 @@
 	import { dev } from '$app/env';
 	import * as Sentry from '@sentry/browser';
 
-
 	import seoMetaTags from '$utils/seo/metaTags';
 	import Seo from '$components/Seo.svelte';
 
