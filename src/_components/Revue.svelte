@@ -6,7 +6,7 @@
 <div class="mx-auto max-w-sm md:max-w-lg">
 	<div id="revue-embed">
 		<form
-			action="http://newsletter.svelteweekly.com/add_subscriber"
+			action="https://newsletter.svelteweekly.com/add_subscriber"
 			method="post"
 			id="revue-form"
 			name="revue-form"
