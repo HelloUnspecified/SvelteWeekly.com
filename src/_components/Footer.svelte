@@ -2,6 +2,7 @@
 	import dayjs from 'dayjs';
 
 	import Button from '$elements/html/Button.svelte';
+	import Input from '$elements/html/Input.svelte';
 </script>
 
 <footer class="bg-gray-100" aria-labelledby="footer-heading">
@@ -54,15 +55,22 @@
 				<p class="mt-4 text-base text-gray-500">
 					The latest Svelte news, articles, and resources, sent to your inbox weekly.
 				</p>
-				<form class="mt-4 sm:flex sm:max-w-md">
+
+				<form
+					action="https://newsletter.svelteweekly.com/add_subscriber"
+					method="post"
+					id="revue-form"
+					name="revue-form"
+					target="_blank"
+					class="mt-4 sm:flex sm:max-w-md"
+				>
 					<label for="email-address" class="sr-only">Email address</label>
-					<input
+					<Input
 						type="email"
-						name="email-address"
-						id="email-address"
+						name="member[email]"
+						id="member_email"
 						autocomplete="email"
 						required
-						class="w-full min-w-0 appearance-none rounded-md border border-gray-300 bg-white py-2 px-4 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-svelte-orange focus:placeholder-gray-400 focus:outline-none focus:ring-svelte-orange"
 						placeholder="Enter your email"
 					/>
 					<div class="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
