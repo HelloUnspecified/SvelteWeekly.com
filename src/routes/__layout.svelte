@@ -1,6 +1,7 @@
 <script context="module">
 	import '../app.css';
 	import 'lazysizes';
+
 	import { browser } from '$app/env';
 	import { v4 as uuidv4 } from 'uuid';
 	import { dev } from '$app/env';
@@ -17,18 +18,17 @@
 	// 	attachStacktrace: true,
 	// 	integrations: [new Integrations.BrowserTracing()]
 	// });
-	
+
 	// Sentry.configureScope((scope) => {
 	// 	scope.setTag('correlationId', correlationId);
 	// });
-	
 </script>
 
 <script>
-	import { onMount, setContext } from 'svelte';
-	import { navigating, session, page } from '$app/stores';
-
+	import { navigating, page } from '$app/stores';
 	import Preloading from '$components/preloading.svelte';
+	import Footer from '$components/Footer.svelte';
+	import NavBar from '$components/NavBar.svelte';
 
 	function copy(e) {
 		const selection = document.getSelection();
@@ -38,14 +38,28 @@
 	}
 </script>
 
-<div on:copy|preventDefault={copy}>
+<main on:copy|preventDefault={copy}>
 	{#if $navigating}
 		<Preloading />
 	{/if}
 
-	<slot />
-</div>
+	<div class="flex min-h-screen flex-col">
+		<NavBar />
+
+		<section class="flex-grow">
+			<slot />
+		</section>
+
+		<Footer />
+	</div>
+</main>
 
 <style>
-	
+	:global(a) {
+		@apply text-gray-400;
+	}
+	:global(a:hover) {
+		@apply text-svelte-blue;
+		@apply font-medium;
+	}
 </style>

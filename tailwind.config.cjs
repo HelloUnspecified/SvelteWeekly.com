@@ -10,18 +10,10 @@ module.exports = {
 			colors: {
 				'this-offWhite': '#F7F7F7',
 				'this-grey': '#353535',
-		
-				thisOrange: {
-					100: '#ffede5',
-					200: '#ffcab3',
-					300: '#ffa680',
-					400: '#ff834d', // base color
-					500: '#ff5f1a',
-					600: '#e64600',
-					700: '#b33600',
-					800: '#802700',
-					900: '#4d1700'
-				},
+
+				'svelte-blue': '#40B3FF',
+				'svelte-orange': '#FF3E00',
+				'svelte-gray': '#676778'
 			}
 		}
 	},

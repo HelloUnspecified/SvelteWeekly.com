@@ -1,4 +1,4 @@
 User-agent: * 
 
-Sitemap: https://that.us/sitemap.xml
+Sitemap: https://svelteweekly.com/sitemap.xml
 
