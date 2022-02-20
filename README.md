@@ -1,7 +1,7 @@
-# SvelteKit Starter Template
+# SvelteWeekly.com
 
-[![GitHub issues open](https://img.shields.io/github/issues/thatconference/that.us.svg)](https://github.com/thatconference/that.us/issues) [![release](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/thatconference/that.us/issues) <!-- 
+[![GitHub issues open](https://img.shields.io/github/issues/HelloUnspecified/SvelteWeekly.com.svg)](https://github.com/HelloUnspecified/SvelteWeekly.com/issues) [![release](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/HelloUnspecified/SvelteWeekly.com/issues)
 
-## Get started
+## Welcome
 
-coming...
+More to come...
