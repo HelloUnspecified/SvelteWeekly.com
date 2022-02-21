@@ -9,45 +9,29 @@
 	<h2 id="footer-heading" class="sr-only">Footer</h2>
 
 	<div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+		<div
+			class="md: mb-12 flex flex-col items-center justify-center space-x-4 space-y-4 md:flex-row md:justify-start md:space-y-0"
+		>
+			<img src="/favicon.png" class="h-10" />
+			<h3 class="text-lg font-semibold uppercase tracking-wider text-svelte-blue">Svelte Weekly</h3>
+		</div>
 		<div class="xl:grid xl:grid-cols-3 xl:gap-8">
-			<div class="grid grid-cols-2 gap-8 xl:col-span-2">
-				<div class="md:grid md:grid-cols-2 md:gap-8">
-					<div>
-						<h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">Solutions</h3>
-						<ul role="list" class="mt-4 space-y-4">
-							<li>
-								<a href="#" class="text-base text-gray-500 hover:text-gray-900"> Marketing </a>
-							</li>
-						</ul>
-					</div>
-					<div class="mt-12 md:mt-0">
-						<h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">Support</h3>
-						<ul role="list" class="mt-4 space-y-4">
-							<li>
-								<a href="#" class="text-base text-gray-500 hover:text-gray-900"> Pricing </a>
-							</li>
-						</ul>
-					</div>
+			<div class="mb-12 grid grid-cols-2 gap-8 xl:col-span-2">
+				<div class="flex flex-col items-center justify-center space-y-6">
+					<a
+						href="https://newsletter.svelteweekly.com/#archive"
+						class="font-semibold uppercase tracking-wider"
+					>
+						Past Issues
+					</a>
+					<a href="/links" class="font-semibold uppercase tracking-wider"> Svelte Links </a>
 				</div>
-				<div class="md:grid md:grid-cols-2 md:gap-8">
-					<div>
-						<h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">Company</h3>
-						<ul role="list" class="mt-4 space-y-4">
-							<li>
-								<a href="#" class="text-base text-gray-500 hover:text-gray-900"> About </a>
-							</li>
-						</ul>
-					</div>
-					<div class="mt-12 md:mt-0">
-						<h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">Legal</h3>
-						<ul role="list" class="mt-4 space-y-4">
-							<li>
-								<a href="#" class="text-base text-gray-500 hover:text-gray-900"> Claim </a>
-							</li>
-						</ul>
-					</div>
+				<div class="flex flex-col items-center justify-center space-y-6">
+					<a href="/about" class="font-semibold uppercase tracking-wider"> About / FAQ </a>
+					<a href="/contact-us" class="font-semibold uppercase tracking-wider"> Contact Us </a>
 				</div>
 			</div>
+
 			<div class="mt-8 xl:mt-0">
 				<h3 class="text-sm font-semibold uppercase tracking-wider text-gray-400">
 					Subscribe Today
@@ -81,7 +65,7 @@
 		</div>
 		<div class="mt-8 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between">
 			<div class="flex space-x-6 md:order-2">
-				<a href="#" class="text-gray-400 hover:text-gray-500">
+				<a href="https://twitter.com/unspecifiedio" class="text-gray-400 hover:text-gray-500">
 					<span class="sr-only">Twitter</span>
 					<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
@@ -90,7 +74,10 @@
 					</svg>
 				</a>
 
-				<a href="#" class="text-gray-400 hover:text-gray-500">
+				<a
+					href="https://github.com/HelloUnspecified/SvelteWeekly.com"
+					class="text-gray-400 hover:text-gray-500"
+				>
 					<span class="sr-only">GitHub</span>
 					<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 						<path
